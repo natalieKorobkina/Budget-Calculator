@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="budgety.css">
+    <title>Budgety</title>
+</head>
+<body>
+    <div class = "first-section">
+        <div class = "fs-content">
+            <div class = "budget-title">
+                MONTHLY BUDGET in <span class = "month"> November, 2018:</span>
+            </div>
+            <div class = "bd-value">
+                0.00
+            </div>
+            <div class = "bd-income">
+                <div class = "fs-income">INCOME</div>
+                <div class = "total-inc">+0.00</div>                  
+                
+            </div>
+            <div class = "bd-expences">
+                <div class = "fs-expences">EXPENCES</div>
+                <div class = "container"><div class = "total-exp">-0.00 </div>
+                <div id = "expper">-%</div></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class = "second-section">
+        <div class = "ss-container">
+            <form class="bg-form" id = "form-id">
+                <select class = "bd-type">
+                    <option value = "inc" selected>+</option>
+                    <option value = "dec" >-</option>
+                </select>
+                <input class="inp-discr" id = "inp-disc-Id" type="text" placeholder="Add discription">
+                <input class = "inp-value" id = "inp-val-Id" type="number" placeholder="Value">
+                <button class = "add">
+                    <i class ="ion-ios-checkmark-outline"></i>
+                </button>
+           </form> 
+        </div>
+    </div>
+    <div class = "third-section">
+        <div class = "income">
+            <div>INCOME</div>
+            <div id = "incarray" class="inc-array"></div>
+        </div>
+        <div class="expenses">
+            <div>EXPENSES</div>
+            <div id = "exparray" class="exp-array"></div>
+        </div>
+    </div>
+    <script src="budget.js"></script>
+</body>
+</html>
