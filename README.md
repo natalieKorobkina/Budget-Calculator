@@ -13,4 +13,4 @@ The application doesn't require any additional installation. You can start to pl
 
 License
 
-Game is a private open-source project. Feel free to do whatever you want with it.
+This application is a private open-source project. Feel free to do whatever you want with it.
